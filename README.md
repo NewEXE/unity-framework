@@ -1,2 +1,2 @@
 # unity-framework
-Boilerplate code for Unity
+Boilerplate code for Unity projects
