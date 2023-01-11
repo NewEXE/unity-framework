@@ -1,5 +1,7 @@
 # unity-framework
 > Boilerplate code for Unity projects.
+> 
+> Uses MVC concept. For details read "[Unity in action](https://www.manning.com/books/unity-in-action-third-edition)" book, chapter 9.
 
 ## Workflow
 

@@ -15,14 +15,14 @@ public class Managers : MonoBehaviour
 
     private List<IGameManager> startSequence;
 
-    void Awake()
+    private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
         
-        Data = GetComponent<DataManager>();
+        Data = this.GetComponent<DataManager>();
         // Player = GetComponent<PlayerManager>();
         // Inventory = GetComponent<InventoryManager>();
-        Mission = GetComponent<MissionManager>();
+        Mission = this.GetComponent<MissionManager>();
 
         this.startSequence = new List<IGameManager>();
         // this.startSequence.Add(Player);
